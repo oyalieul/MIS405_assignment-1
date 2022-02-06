@@ -1,5 +1,4 @@
-
-body{
+body {
     margin: 80px;
 }
 
@@ -13,14 +12,14 @@ h1{
 .sec{
     padding: 10px;
     display: flex;
-    height: 400px;
+    height: 500px;
     border-radius: 5px;
 }
 
 /* this section do not need flex */
 .lastsec{
     padding: 10px;
-    height: 400px;
+    height: 500px;
     border-radius: 5px;
 }
 
@@ -32,16 +31,18 @@ h1{
 /* styling school boxes */
 .schools{
     border: rgb(223, 218, 218) solid 0.5px;
-    margin:auto;
+    margin: auto;
     border-radius: 15px;
-    padding:15px;
-    width: 400px; 
+    padding: 18px;
+    width: 25%;
     height: 300px;
+    overflow: auto;
+    transition: .4s;
 }
 
 /* setting width to subs div of first two section */
-.half{
-    width:50%;
+.half {
+    width:49%;
 }
 
 /* text justify */
@@ -51,23 +52,24 @@ p{
 
 /* resizing paragraph area in about iub section */
 .small{
-    width: 750px;
+    width: 90%;
 }
 
 /* shifting the img to right */
 /* first img */
 #first{
-    margin-left:100px;
+    margin-left:15%;
 }
+
 /* second img */
 #second{
-    margin-left:220px;
+    margin-left:20%;
 }
 
-
-
-/* giving border radius to images */
-.border{
+/* giving width, height and border radius to images */
+.img{
+    height:80%;
+    width:60%;
     border-radius: 8px;
 }
 
@@ -75,7 +77,9 @@ p{
 .schools:hover{
     background-color: #6c0c0b;
     color: white;
+    transform: scale(1.1);
 }
+
 
 /* footer */
 footer{

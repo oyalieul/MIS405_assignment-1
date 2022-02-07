@@ -5,7 +5,7 @@ body {
 h1{
     color: grey;
     text-transform: uppercase;
-    font-size: 225%;
+    font-size: 220%;
 }
 
 /* adding display flex to first to section */
@@ -42,7 +42,7 @@ h1{
 
 /* setting width to subs div of first two section */
 .half {
-    width:49%;
+    width:50%;
 }
 
 /* text justify */

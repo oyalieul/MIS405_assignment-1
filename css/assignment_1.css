@@ -5,7 +5,6 @@ body {
 h1{
     color: grey;
     text-transform: uppercase;
-    font-size: 220%;
 }
 
 /* adding display flex to first to section */

@@ -10,7 +10,7 @@ h1{
 /* adding display flex to first to section */
 .sec{
     display: flex;
-    padding: 10px;
+    
     height: 500px;
 }
 
@@ -40,6 +40,7 @@ h1{
 /* setting width to subs div of first two section */
 .half {
     width:50%;
+    padding: 10px;
 }
 
 /* text justify */

@@ -7,12 +7,35 @@ h1{
     text-transform: uppercase;
 }
 
+/* text justify */
+p{
+    text-align: justify;
+}
+
 /* adding display flex to first to section */
 .sec{
     display: flex;
-    
     height: 500px;
 }
+
+/* setting width and padding to sub div of first two section */
+.half {
+    width:50%;
+    padding: 10px;
+}
+
+/* giving width, height and border radius to images */
+.img{
+    height:80%;
+    width:70%;
+    border-radius: 8px;
+}
+
+/* skewing the img to right */
+#second{
+    margin-left: 15%;
+}
+
 
 /* this section do not need flex */
 .lastsec{
@@ -24,12 +47,12 @@ h1{
 .flex{
     display:flex;
     margin-top:20px;
+    justify-content: space-between:
 }
 
 /* styling school boxes */
 .schools{
     border: rgb(223, 218, 218) solid 0.5px;
-    margin: auto;
     border-radius: 15px;
     padding: 18px;
     width: 25%;
@@ -37,40 +60,11 @@ h1{
     overflow: auto;
 }
 
-/* setting width to subs div of first two section */
-.half {
-    width:50%;
-    padding: 10px;
-}
-
-/* text justify */
-p{
-    text-align: justify;
-}
-
-/* resizing paragraph area in about iub section */
-.small{
-    width: 90%;
-}
-
-
-/* giving width, height and border radius to images */
-.img{
-    height:80%;
-    width:70%;
-    border-radius: 8px;
-}
-/* skewing the img to right */
-#second{
-    margin-left: 15%;
-}
-
 /* hover effect */
 .schools:hover{
     background-color: #6c0c0b;
     color: white;
 }
-
 
 /* footer */
 footer{

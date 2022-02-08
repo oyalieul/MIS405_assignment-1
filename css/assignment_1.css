@@ -9,20 +9,18 @@ h1{
 
 /* adding display flex to first to section */
 .sec{
-    padding: 10px;
     display: flex;
+    padding: 10px;
     height: 500px;
-    border-radius: 5px;
 }
 
 /* this section do not need flex */
 .lastsec{
     padding: 10px;
     height: 500px;
-    border-radius: 5px;
 }
 
-/* adding display flex to show the box side by side*/
+/* adding display flex to show the box of last section side by side*/
 .flex{
     display:flex;
     margin-top:20px;
@@ -54,12 +52,15 @@ p{
     width: 90%;
 }
 
-/* shifting the img to right */
+
 /* giving width, height and border radius to images */
 .img{
     height:80%;
     width:70%;
     border-radius: 8px;
+}
+/* skewing the img to right */
+#second{
     margin-left: 15%;
 }
 
